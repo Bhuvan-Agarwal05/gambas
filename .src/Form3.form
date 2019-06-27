@@ -1,0 +1,122 @@
+# Gambas Form File 3.0
+
+{ Form Form
+  MoveScaled(0,0,102,64)
+  Background = Color.Gray
+  { Label1 Label
+    MoveScaled(30,2,32,4)
+    Font = Font["Bold,Italic,+6"]
+    Foreground = Color.White
+    Text = ("GROCERY STORE")
+  }
+  { Label2 Label
+    MoveScaled(1,12,33,4)
+    Font = Font["Bold,+2"]
+    Foreground = Color.Yellow
+    Text = ("Basmati Rice 25kg Sack  $350")
+  }
+  { CheckBox1 CheckBox
+    MoveScaled(34,12,3,4)
+  }
+  { ComboBox1 ComboBox
+    MoveScaled(38,12,7,4)
+    Enabled = False
+    ReadOnly = True
+    List = [("1"), ("2"), ("3"), ("4"), ("5"), ("6"), ("7"), ("8"), ("9"), ("10")]
+  }
+  { Label3 Label
+    MoveScaled(1,18,32,4)
+    Font = Font["Bold,+2"]
+    Foreground = Color.Yellow
+    Text = ("Wheat Flour 25kg Sack  $250")
+  }
+  { CheckBox2 CheckBox
+    MoveScaled(34,18,3,4)
+  }
+  { ComboBox2 ComboBox
+    MoveScaled(38,18,7,4)
+    Enabled = False
+    ReadOnly = True
+    List = [("1"), ("2"), ("3"), ("4"), ("5"), ("6"), ("7"), ("8"), ("9"), ("10")]
+  }
+  { Label4 Label
+    MoveScaled(1,24,33,4)
+    Font = Font["Bold,+2"]
+    Foreground = Color.Yellow
+    Text = ("Fortune Mustard Oil 1lt  $100")
+  }
+  { CheckBox3 CheckBox
+    MoveScaled(34,24,3,4)
+  }
+  { ComboBox3 ComboBox
+    MoveScaled(38,24,7,4)
+    Enabled = False
+    ReadOnly = True
+    List = [("1"), ("2"), ("3"), ("4"), ("5"), ("6"), ("7"), ("8"), ("9"), ("10")]
+  }
+  { Label5 Label
+    MoveScaled(1,30,27,4)
+    Font = Font["Bold,+2"]
+    Foreground = Color.Yellow
+    Text = ("Anik Pure Ghee 1lt $450")
+  }
+  { CheckBox4 CheckBox
+    MoveScaled(29,30,3,4)
+  }
+  { ComboBox4 ComboBox
+    MoveScaled(33,30,7,4)
+    Enabled = False
+    ReadOnly = True
+    List = [("1"), ("2"), ("3"), ("4"), ("5"), ("6"), ("7"), ("8"), ("9"), ("10")]
+  }
+  { Label6 Label
+    MoveScaled(1,36,31,4)
+    Font = Font["Bold,+2"]
+    Foreground = Color.Yellow
+    Text = ("Patanjali Pure Ghee 1lt $500")
+  }
+  { CheckBox5 CheckBox
+    MoveScaled(34,36,3,4)
+  }
+  { ComboBox5 ComboBox
+    MoveScaled(39,36,7,4)
+    Enabled = False
+    ReadOnly = True
+    List = [("1"), ("2"), ("3"), ("4"), ("5"), ("6"), ("7"), ("8"), ("9"), ("10")]
+  }
+  { Label7 Label
+    MoveScaled(1,42,24,4)
+    Font = Font["Bold,+2"]
+    Foreground = Color.Yellow
+    Text = ("Soyabean Oil 1lt $200")
+  }
+  { CheckBox6 CheckBox
+    MoveScaled(26,42,3,4)
+  }
+  { ComboBox6 ComboBox
+    MoveScaled(31,42,7,4)
+    Enabled = False
+    ReadOnly = True
+    List = [("1"), ("2"), ("3"), ("4"), ("5"), ("6"), ("7"), ("8"), ("9"), ("10")]
+  }
+  { Button1 Button
+    MoveScaled(62,19,16,4)
+    Background = Color.ButtonBackground
+    Text = ("ADD TO CART")
+  }
+  { Button2 Button
+    MoveScaled(81,19,16,4)
+    Background = Color.ButtonBackground
+    Text = ("BACK TO HOME")
+  }
+  { Button3 Button
+    MoveScaled(62,28,16,4)
+    Background = Color.ButtonBackground
+    Text = ("RESET")
+  }
+  { Button4 Button
+    MoveScaled(81,28,16,4)
+    Background = Color.ButtonBackground
+    Text = ("CONFIRM")
+  }
+}

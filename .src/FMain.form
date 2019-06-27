@@ -1,0 +1,49 @@
+# Gambas Form File 3.0
+
+{ Form Form
+  MoveScaled(0,0,100,64)
+  Font = Font["Bold,Italic,+6"]
+  Background = Color.DarkYellow
+  { Label1 Label
+    MoveScaled(7,4,87,6)
+    Background = Color.Yellow
+    Foreground = Color.Black
+    Text = ("                    ONLINE SHOPPING SYSTEM")
+  }
+  { Label2 Label
+    MoveScaled(5,18,24,4)
+    Font = Font["Italic,Underline,+1"]
+    Foreground = Color.LinkForeground
+    Text = ("CATEGORIES TO SHOP  :-")
+  }
+  { Button1 Button
+    MoveScaled(5,26,19,17)
+    Font = Font["+2"]
+    Background = Color.ButtonBackground
+    Text = ("BOOKS")
+  }
+  { Button2 Button
+    MoveScaled(30,26,18,17)
+    Font = Font["+2"]
+    Background = Color.ButtonBackground
+    Text = ("FASHION")
+  }
+  { Button3 Button
+    MoveScaled(54,26,19,17)
+    Font = Font["+2"]
+    Background = Color.ButtonBackground
+    Text = ("GROCERY")
+  }
+  { Button4 Button
+    MoveScaled(78,26,19,17)
+    Font = Font["+2"]
+    Background = Color.ButtonBackground
+    Text = ("HOME NEEDS")
+  }
+  { Label3 Label
+    MoveScaled(38,54,61,4)
+    Font = Font["Italic,-2"]
+    Foreground = Color.Blue
+    Text = ("THANK  YOU  FOR  VISITING")
+  }
+}

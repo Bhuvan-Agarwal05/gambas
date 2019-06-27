@@ -1,0 +1,183 @@
+' Gambas class file
+
+Public a As Integer
+Public str[100] As String
+Public ad As String
+
+
+Public Sub Button1_Click()
+Dim i As Integer
+listbox1.Clear
+listbox1.Add("Products" & "          " & "Quantity")
+For i = 1 To 6 
+str[i] = Form1.su[i] 
+listbox1.Add(str[i])
+ 
+Next
+For i = 7 To 13
+  str[i] = Form2_1.su[i]
+  listbox1.Add(str[i])
+  
+Next
+For i = 14 To 19
+  str[i] = Form2_2.su[i]
+  listbox1.Add(str[i])
+Next
+For i = 20 To 25
+  str[i] = Form3.su[i]
+  listbox1.Add(str[i])
+Next
+For i = 26 To 31
+  str[i] = Form4.su[i]
+  listbox1.Add(str[i])
+Next
+End
+
+Public Sub Button2_Click()
+If textbox1.text = False
+Message.Info("ENTER ADDRESS")
+Else
+ad = textbox1.Text
+
+  Message.Info("Address is Saved")
+End If
+
+
+End
+
+
+Public Sub Button3_Click()
+Dim i As Integer
+If textbox1.text = False
+   Message.Info("Enter Address")
+  
+  Else If ((textbox1.text = True) & (a = 0))
+    
+  Message.Info("Enter Products to Your Cart First")
+  Else
+    Form6.show
+  End If
+  
+   
+End
+
+
+Public Sub Form_Open()
+
+  Dim s As String
+  s = Str(textbox1.text)
+  
+End
+
+Public Sub Button4_Click()
+
+  a = (Form1.sum + Form2_1.sum + Form2_2.sum + Form3.sum + Form4.sum)
+  Message.Info(a)
+
+
+End
+
+Public Sub Button5_Click()
+Dim i As Integer
+  listbox1.Clear
+  Form1.sum = 0
+  Form2_1.sum = 0
+  Form3.sum = 0
+  Form2_2.sum = 0
+  Form4.sum = 0
+  a = 0
+  Form1.CheckBox1.value = False
+  Form1.CheckBox2.value = False
+  Form1.CheckBox3.value = False
+  Form1.CheckBox4.value = False
+  Form1.CheckBox5.value = False
+  Form1.CheckBox6.value = False
+  Form2_1.CheckBox1.value = False
+  Form2_1.CheckBox2.value = False
+  Form2_1.CheckBox3.value = False
+  Form2_1.CheckBox4.value = False
+  Form2_1.CheckBox5.value = False
+  Form2_1.CheckBox6.value = False
+  Form2_1.CheckBox7.value = False
+  Form2_2.CheckBox1.value = False
+   Form2_2.CheckBox2.value = False
+    Form2_2.CheckBox3.value = False
+     Form2_2.CheckBox4.value = False
+      Form2_2.CheckBox5.value = False
+       Form2_2.CheckBox6.value = False
+       
+        Form3.CheckBox1.value = False
+        Form3.CheckBox2.value = False
+        Form3.CheckBox3.value = False
+        Form3.CheckBox4.value = False
+        Form3.CheckBox5.value = False
+        Form3.CheckBox6.value = False
+        
+        Form4.CheckBox1.value = False
+        Form4.CheckBox2.value = False
+        Form4.CheckBox3.value = False
+        Form4.CheckBox4.value = False
+        Form4.CheckBox5.value = False
+        Form4.CheckBox6.value = False
+        
+        Form1.ComboBox1.text = False
+        Form1.ComboBox2.text = False
+        Form1.ComboBox3.text = False
+        Form1.ComboBox4.text = False
+        Form1.ComboBox5.text = False
+        Form1.ComboBox6.text = False
+        
+        Form2_1.ComboBox1.text = False
+        Form2_1.ComboBox2.text = False
+        Form2_1.ComboBox3.text = False
+        Form2_1.ComboBox4.text = False
+        Form2_1.ComboBox5.text = False
+        Form2_1.ComboBox6.text = False
+        Form2_1.ComboBox7.text = False
+        
+        Form2_2.ComboBox1.text = False
+         Form2_2.ComboBox2.text = False
+          Form2_2.ComboBox3.text = False
+           Form2_2.ComboBox4.text = False
+            Form2_2.ComboBox5.text = False
+             Form2_2.ComboBox6.text = False
+             
+              Form3.ComboBox1.text = False
+              Form3.ComboBox2.text = False
+              Form3.ComboBox3.text = False
+              Form3.ComboBox4.text = False
+              Form3.ComboBox5.text = False
+              Form3.ComboBox6.text = False
+              
+              Form4.ComboBox1.text = False
+              Form4.ComboBox2.text = False
+              Form4.ComboBox3.text = False
+              Form4.ComboBox4.text = False
+              Form4.ComboBox5.text = False
+              Form4.ComboBox6.text = False
+         For i = 1 To 6
+          Form1.su[i] = ""
+        Next
+        For i = 7 To 13
+          Form2_1.su[i] = ""
+        Next
+        For i = 14 To 19
+          Form2_2.su[i] = ""
+        Next
+        For i = 20 To 25
+          Form3.su[i] = ""
+        Next
+        For i = 26 To 31
+          Form4.su[i] = ""
+        Next
+  Message.Info("CART IS EMPTY")
+End
+
+Public Sub Button6_Click()
+
+  FMain.Show
+  
+
+End
+
+

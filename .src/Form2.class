@@ -1,0 +1,22 @@
+' Gambas class file
+
+
+Public Sub Button1_Click()
+
+  Form2_1.Show
+
+End
+
+Public Sub Button2_Click()
+
+  Form2_2.Show
+
+End
+
+
+Public Sub Button3_Click()
+
+  FMain.Show
+  
+
+End

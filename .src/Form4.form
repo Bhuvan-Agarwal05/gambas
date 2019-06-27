@@ -1,0 +1,125 @@
+# Gambas Form File 3.0
+
+{ Form Form
+  MoveScaled(0,0,99,64)
+  Background = Color.DarkCyan
+  { Label1 Label
+    MoveScaled(33,4,32,4)
+    Font = Font["Bold,Italic,+5"]
+    Foreground = Color.Pink
+    Text = ("DAILY HOME NEEDS")
+  }
+  { Label2 Label
+    MoveScaled(1,13,24,4)
+    Font = Font["Bold,+2"]
+    Foreground = Color.Yellow
+    Text = ("Magic Mop 1Pc. $200")
+  }
+  { CheckBox1 CheckBox
+    MoveScaled(26,13,3,4)
+  }
+  { ComboBox1 ComboBox
+    MoveScaled(30,13,7,4)
+    Enabled = False
+    ReadOnly = True
+    List = [("1"), ("2"), ("3"), ("4"), ("5"), ("6"), ("7"), ("8"), ("9"), ("10")]
+  }
+  { Label3 Label
+    MoveScaled(1,19,24,4)
+    Font = Font["Bold,+2"]
+    Foreground = Color.Yellow
+    Text = ("Kitchen Cleaner $350")
+  }
+  { CheckBox2 CheckBox
+    MoveScaled(26,19,3,4)
+  }
+  { ComboBox2 ComboBox
+    MoveScaled(30,19,7,4)
+    Enabled = False
+    ReadOnly = True
+    List = [("1"), ("2"), ("3"), ("4"), ("5"), ("6"), ("7"), ("8"), ("9"), ("10")]
+  }
+  { Label4 Label
+    MoveScaled(1,25,26,4)
+    Font = Font["Bold,+2"]
+    Foreground = Color.Yellow
+    Text = ("Bathroom Cleaner $300")
+  }
+  { CheckBox3 CheckBox
+    MoveScaled(28,25,3,4)
+  }
+  { ComboBox3 ComboBox
+    MoveScaled(32,25,7,4)
+    Enabled = False
+    ReadOnly = True
+    List = [("1"), ("2"), ("3"), ("4"), ("5"), ("6"), ("7"), ("8"), ("9"), ("10")]
+  }
+  { Label5 Label
+    MoveScaled(1,31,34,4)
+    Font = Font["Bold,+2"]
+    Foreground = Color.Yellow
+    Text = ("Mouth Refreshment Pack $400")
+  }
+  { CheckBox4 CheckBox
+    MoveScaled(36,31,3,4)
+  }
+  { ComboBox4 ComboBox
+    MoveScaled(40,31,7,4)
+    Enabled = False
+    ReadOnly = True
+    List = [("1"), ("2"), ("3"), ("4"), ("5"), ("6"), ("7"), ("8"), ("9"), ("10")]
+  }
+  { Label6 Label
+    MoveScaled(1,37,24,4)
+    Font = Font["Bold,+2"]
+    Foreground = Color.Yellow
+    Text = ("Perfumes 250ml $150")
+  }
+  { CheckBox5 CheckBox
+    MoveScaled(26,37,3,4)
+  }
+  { ComboBox5 ComboBox
+    MoveScaled(30,37,7,4)
+    Enabled = False
+    ReadOnly = True
+    List = [("1"), ("2"), ("3"), ("4"), ("5"), ("6"), ("7"), ("8"), ("9"), ("10")]
+  }
+  { Label7 Label
+    MoveScaled(0,0,24,4)
+  }
+  { Label8 Label
+    MoveScaled(1,43,32,4)
+    Font = Font["Bold,+2"]
+    Foreground = Color.Yellow
+    Text = ("Room Freshner 1000ml $130")
+  }
+  { CheckBox6 CheckBox
+    MoveScaled(34,43,3,4)
+  }
+  { ComboBox6 ComboBox
+    MoveScaled(38,43,7,4)
+    Enabled = False
+    ReadOnly = True
+    List = [("1"), ("2"), ("3"), ("4"), ("5"), ("6"), ("7"), ("8"), ("9"), ("10")]
+  }
+  { Button1 Button
+    MoveScaled(60,19,16,4)
+    Background = Color.ButtonBackground
+    Text = ("ADD TO CART")
+  }
+  { Button2 Button
+    MoveScaled(79,19,16,4)
+    Background = Color.ButtonBackground
+    Text = ("BACK TO HOME")
+  }
+  { Button3 Button
+    MoveScaled(60,28,16,4)
+    Background = Color.ButtonBackground
+    Text = ("RESET")
+  }
+  { Button4 Button
+    MoveScaled(79,28,16,4)
+    Background = Color.ButtonBackground
+    Text = ("CONFIRM")
+  }
+}

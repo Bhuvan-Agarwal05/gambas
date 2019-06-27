@@ -1,0 +1,31 @@
+# Gambas Form File 3.0
+
+{ Form Form
+  MoveScaled(0,0,100,64)
+  Font = Font["Bold,+5"]
+  Background = Color.DarkCyan
+  { Label1 Label
+    MoveScaled(31,4,33,4)
+    Font = Font["+6"]
+    Foreground = Color.Magenta
+    Text = ("DRESS CATEGORY")
+  }
+  { Button1 Button
+    MoveScaled(14,18,27,25)
+    Background = Color.ButtonForeground
+    Foreground = Color.Yellow
+    Text = ("MEN")
+  }
+  { Button2 Button
+    MoveScaled(53,18,28,25)
+    Background = Color.ButtonForeground
+    Foreground = Color.Yellow
+    Text = ("WOMEN")
+  }
+  { Button3 Button
+    MoveScaled(36,51,26,4)
+    Font = Font["+2"]
+    Background = Color.ButtonBackground
+    Text = ("BACK TO HOME")
+  }
+}

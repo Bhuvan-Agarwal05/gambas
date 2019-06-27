@@ -1,0 +1,55 @@
+# Gambas Form File 3.0
+
+{ Form Form
+  MoveScaled(0,0,102,64)
+  Background = Color.LightForeground
+  { Label1 Label
+    MoveScaled(21,4,57,4)
+    Font = Font["Bold,Italic,+6"]
+    Foreground = Color.White
+    Text = ("Choose your Mode Of Payment")
+  }
+  { RadioButton1 RadioButton
+    MoveScaled(3,24,24,4)
+    Font = Font["Bold,Italic,+2"]
+    Foreground = Color.White
+    Text = ("Debit Card")
+  }
+  { RadioButton2 RadioButton
+    MoveScaled(3,29,24,4)
+    Font = Font["Bold,Italic,+2"]
+    Foreground = Color.White
+    Text = ("Credit Card")
+  }
+  { RadioButton3 RadioButton
+    MoveScaled(3,34,24,4)
+    Font = Font["Bold,Italic,+2"]
+    Foreground = Color.White
+    Text = ("GooglePay")
+  }
+  { RadioButton4 RadioButton
+    MoveScaled(3,39,35,4)
+    Font = Font["Bold,Italic,+2"]
+    Foreground = Color.White
+    Text = ("PayTm / PayUI / AmazonPay")
+  }
+  { RadioButton5 RadioButton
+    MoveScaled(3,44,24,4)
+    Font = Font["Bold,Italic,+2"]
+    Foreground = Color.White
+    Text = ("Cash On Delivery")
+  }
+  { Button1 Button
+    MoveScaled(30,52,35,4)
+    Background = Color.ButtonBackground
+    Text = ("Place Order")
+  }
+  { TextBox1 TextBox
+    MoveScaled(18,15,24,4)
+  }
+  { Label2 Label
+    MoveScaled(1,15,16,4)
+    Font = Font["Bold,+2"]
+    Text = ("Total Amount")
+  }
+}

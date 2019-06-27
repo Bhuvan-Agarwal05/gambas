@@ -1,0 +1,30 @@
+' Gambas class file
+
+Public a As Integer
+Public s[100] As String
+
+Public Sub Button1_Click()
+
+  Form1.Show
+
+End
+
+Public Sub Button2_Click()
+
+  Form2.Show
+
+End
+
+Public Sub Button3_Click()
+
+  Form3.Show
+  
+
+End
+
+Public Sub Button4_Click()
+
+  Form4.Show
+  
+
+End

@@ -1,0 +1,143 @@
+# Gambas Form File 3.0
+
+{ Form Form
+  MoveScaled(0,0,100,64)
+  Background = Color.DarkCyan
+  { Label1 Label
+    MoveScaled(34,2,28,4)
+    Font = Font["Bold,+5"]
+    Foreground = Color.Green
+    Text = ("MEN'S FASHION")
+  }
+  { Label2 Label
+    MoveScaled(1,12,43,4)
+    Font = Font["Bold,+2"]
+    Foreground = Color.Yellow
+    Text = ("T-Shirt Combo(White,Red,Black)  $500")
+  }
+  { CheckBox1 CheckBox
+    MoveScaled(44,12,3,4)
+  }
+  { ComboBox1 ComboBox
+    MoveScaled(48,12,7,4)
+    Enabled = False
+    ReadOnly = True
+    List = [("1"), ("2"), ("3"), ("4"), ("5"), ("6"), ("7"), ("8"), ("9"), ("10")]
+  }
+  { Label3 Label
+    MoveScaled(1,18,46,4)
+    Font = Font["Bold,+2"]
+    Foreground = Color.Yellow
+    Text = ("Trousers Combo(Beige,Black,Blue)  $1500")
+  }
+  { CheckBox2 CheckBox
+    MoveScaled(48,18,3,4)
+  }
+  { ComboBox2 ComboBox
+    MoveScaled(52,18,7,4)
+    Enabled = False
+    ReadOnly = True
+    List = [("1"), ("2"), ("3"), ("4"), ("5"), ("6"), ("7"), ("8"), ("9"), ("10")]
+  }
+  { Label4 Label
+    MoveScaled(1,24,40,4)
+    Font = Font["Bold,+2"]
+    Foreground = Color.Yellow
+    Text = ("Raymonds Suit Length(Black)  $3000")
+  }
+  { CheckBox3 CheckBox
+    MoveScaled(43,24,3,4)
+  }
+  { ComboBox3 ComboBox
+    MoveScaled(47,24,7,4)
+    Enabled = False
+    ReadOnly = True
+    List = [("1"), ("2"), ("3"), ("4"), ("5"), ("6"), ("7"), ("8"), ("9"), ("10")]
+  }
+  { Label5 Label
+    MoveScaled(1,30,24,4)
+    Font = Font["Bold,+2"]
+    Foreground = Color.Yellow
+    Text = ("Reebok Shoes  $500")
+  }
+  { CheckBox4 CheckBox
+    MoveScaled(25,30,3,4)
+  }
+  { ComboBox4 ComboBox
+    MoveScaled(29,30,7,4)
+    Enabled = False
+    ReadOnly = True
+    List = [("1"), ("2"), ("3"), ("4"), ("5"), ("6"), ("7"), ("8"), ("9"), ("10")]
+  }
+  { Label6 Label
+    MoveScaled(1,36,28,4)
+    Font = Font["Bold,+2"]
+    Foreground = Color.Yellow
+    Text = ("Jack & Jones Vests  $100")
+  }
+  { CheckBox5 CheckBox
+    MoveScaled(30,36,3,4)
+  }
+  { ComboBox5 ComboBox
+    MoveScaled(35,36,7,4)
+    Enabled = False
+    ReadOnly = True
+    List = [("1"), ("2"), ("3"), ("4"), ("5"), ("6"), ("7"), ("8"), ("9"), ("10")]
+  }
+  { Label7 Label
+    MoveScaled(1,42,24,4)
+    Font = Font["Bold,+2"]
+    Foreground = Color.Yellow
+    Text = ("Titan Watch  $500")
+  }
+  { CheckBox6 CheckBox
+    MoveScaled(23,42,3,4)
+  }
+  { ComboBox6 ComboBox
+    MoveScaled(28,42,7,4)
+    Enabled = False
+    ReadOnly = True
+    List = [("1"), ("2"), ("3"), ("4"), ("5"), ("6"), ("7"), ("8"), ("9"), ("10")]
+  }
+  { Label8 Label
+    MoveScaled(1,48,34,4)
+    Font = Font["Bold,+2"]
+    Foreground = Color.Yellow
+    Text = ("Woodland Loafers Shoes  $600")
+  }
+  { CheckBox7 CheckBox
+    MoveScaled(37,48,3,4)
+  }
+  { ComboBox7 ComboBox
+    MoveScaled(42,48,7,4)
+    Enabled = False
+    ReadOnly = True
+    List = [("1"), ("2"), ("3"), ("4"), ("5"), ("6"), ("7"), ("8"), ("9"), ("10")]
+  }
+  { Button1 Button
+    MoveScaled(63,27,16,4)
+    Background = Color.ButtonBackground
+    Text = ("ADD TO CART")
+  }
+  { Button2 Button
+    MoveScaled(82,27,16,4)
+    Background = Color.ButtonBackground
+    Text = ("BACK TO HOME")
+  }
+  { Button3 Button
+    MoveScaled(63,36,16,4)
+    Background = Color.ButtonBackground
+    Foreground = Color.DarkMagenta
+    Text = ("RESET")
+  }
+  { Button4 Button
+    MoveScaled(67,44,27,4)
+    Background = Color.ButtonBackground
+    Text = ("BACK TO PREVIOUS PAGE")
+  }
+  { Button5 Button
+    MoveScaled(82,36,16,4)
+    Background = Color.ButtonBackground
+    Text = ("CONFIRM")
+  }
+}

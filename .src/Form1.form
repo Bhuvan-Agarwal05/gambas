@@ -1,0 +1,122 @@
+# Gambas Form File 3.0
+
+{ Form Form
+  MoveScaled(0,0,101,64)
+  Background = Color.TextForeground
+  { Label1 Label
+    MoveScaled(14,4,67,4)
+    Font = Font["Bold,Italic,+5"]
+    Foreground = Color.White
+    Text = ("                                   BOOKS")
+  }
+  { Label2 Label
+    MoveScaled(1,17,25,4)
+    Font = Font["+1"]
+    Foreground = Color.Yellow
+    Text = ("Harry Potter Series  $1000")
+  }
+  { CheckBox1 CheckBox
+    MoveScaled(27,17,3,4)
+  }
+  { ComboBox1 ComboBox
+    MoveScaled(31,17,7,4)
+    Enabled = False
+    ReadOnly = True
+    List = [("1"), ("2"), ("3"), ("4"), ("5"), ("6"), ("7"), ("8"), ("9"), ("10")]
+  }
+  { Label3 Label
+    MoveScaled(1,23,33,4)
+    Font = Font["+1"]
+    Foreground = Color.Yellow
+    Text = ("Adventures of Arabian Nights  $200")
+  }
+  { CheckBox2 CheckBox
+    MoveScaled(35,23,3,4)
+  }
+  { ComboBox2 ComboBox
+    MoveScaled(39,23,7,4)
+    Enabled = False
+    ReadOnly = True
+    List = [("1"), ("2"), ("3"), ("4"), ("5"), ("6"), ("7"), ("8"), ("9"), ("10")]
+  }
+  { Label4 Label
+    MoveScaled(1,29,20,4)
+    Font = Font["+1"]
+    Foreground = Color.Yellow
+    Text = ("Wings of Fire  $395")
+  }
+  { CheckBox3 CheckBox
+    MoveScaled(21,29,3,4)
+  }
+  { ComboBox3 ComboBox
+    MoveScaled(25,29,7,4)
+    Enabled = False
+    ReadOnly = True
+    List = [("1"), ("2"), ("3"), ("4"), ("5"), ("6"), ("7"), ("8"), ("9"), ("10")]
+  }
+  { Label5 Label
+    MoveScaled(1,35,48,4)
+    Font = Font["+1"]
+    Foreground = Color.Yellow
+    Text = ("The Theory of Everything by Stephen Hawkings  $150")
+  }
+  { CheckBox4 CheckBox
+    MoveScaled(50,35,3,4)
+  }
+  { ComboBox4 ComboBox
+    MoveScaled(54,35,7,4)
+    Enabled = False
+    ReadOnly = True
+    List = [("1"), ("2"), ("3"), ("4"), ("5"), ("6"), ("7"), ("8"), ("9"), ("10")]
+  }
+  { Label6 Label
+    MoveScaled(1,41,31,4)
+    Font = Font["+1"]
+    Foreground = Color.Yellow
+    Text = ("2 States by Chetan Bhagat  $300 ")
+  }
+  { CheckBox5 CheckBox
+    MoveScaled(32,41,3,4)
+  }
+  { ComboBox5 ComboBox
+    MoveScaled(36,41,7,4)
+    Enabled = False
+    ReadOnly = True
+    List = [("1"), ("2"), ("3"), ("4"), ("5"), ("6"), ("7"), ("8"), ("9"), ("10")]
+  }
+  { Label7 Label
+    MoveScaled(1,47,32,4)
+    Font = Font["+1"]
+    Foreground = Color.Yellow
+    Text = ("Gate Question Bank 10 Years  $600")
+  }
+  { CheckBox6 CheckBox
+    MoveScaled(35,47,4,4)
+  }
+  { ComboBox6 ComboBox
+    MoveScaled(39,47,7,4)
+    Enabled = False
+    ReadOnly = True
+    List = [("1"), ("2"), ("3"), ("4"), ("5"), ("6"), ("7"), ("8"), ("9"), ("10")]
+  }
+  { Button1 Button
+    MoveScaled(64,20,16,4)
+    Background = Color.ButtonBackground
+    Text = ("ADD TO CART")
+  }
+  { Button2 Button
+    MoveScaled(82,20,16,4)
+    Background = Color.ButtonBackground
+    Text = ("BACK TO HOME")
+  }
+  { Button3 Button
+    MoveScaled(64,29,16,4)
+    Background = Color.ButtonBackground
+    Text = ("RESET")
+  }
+  { Button4 Button
+    MoveScaled(82,29,16,4)
+    Background = Color.ButtonBackground
+    Text = ("CONFIRM")
+  }
+}

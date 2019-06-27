@@ -1,0 +1,181 @@
+' Gambas class file
+
+Public sum As Integer
+Public su[100] As String
+
+
+Public Sub Button2_Click()
+
+  FMain.Show
+
+End
+
+
+Public Sub Button1_Click()
+
+
+  If checkbox1.value = True
+  sum = sum + 500 * combobox1.Text
+  su[7] = "T-Shirt Combo(White,Red,Black)" & "     " & combobox1.Text
+  
+  End If
+  
+  If CheckBox2.value = True
+  sum = sum + 1500 * combobox2.Text
+  su[8] = "Trousers Combo(Beige,Black,Blue)" & "     " & combobox2.Text
+  
+  End If
+  
+  If checkbox3.value = True
+  sum = sum + 3000 * combobox3.Text
+  su[9] = "Raymonds Suit Length(Black)" & "     " & combobox3.Text
+  
+  End If
+  
+  If checkbox4.value = True
+  sum = sum + 500 * combobox4.Text
+  su[10] = "Reebok Shoes" & "     " & combobox4.Text
+  
+  End If
+  
+  If checkbox5.value = True
+  sum = sum + 100 * combobox5.Text
+  su[11] = "Jack & Jones Vests" & "     " & combobox5.Text
+  
+  End If
+  
+  If checkbox6.value = True
+  sum = sum + 500 * combobox6.Text
+  su[12] = "Titan Watch" & "     " & combobox6.Text
+  
+  End If
+  
+  If checkbox7.value = True
+  sum = sum + 600 * combobox7.Text
+  su[13] = "Woodland Loafers Shoes" & "     " & combobox7.Text
+  
+  End If
+  
+    Message.Info("Items Added to Cart")
+
+End
+
+
+
+Public Sub Button3_Click()
+
+  checkbox1.value = False
+  CheckBox2.value = False
+  checkbox3.value = False
+  checkbox4.value = False
+  checkbox5.value = False
+  checkbox6.value = False
+  checkbox7.value = False
+  combobox1.text = False
+  combobox1.enabled = False
+  combobox2.text = False
+   combobox2.enabled = False
+  combobox3.text = False
+   combobox3.enabled = False
+  combobox4.text = False
+   combobox4.enabled = False
+  combobox5.text = False
+   combobox5.enabled = False
+  combobox6.text = False
+   combobox6.enabled = False
+   combobox7.text = False
+   combobox7.enabled = False
+ 
+   sum = 0
+   su[7] = ""
+   su[8] = ""
+   su[9] = ""
+   su[10] = ""
+   su[11] = ""
+   su[12] = ""
+   su[13] = ""
+End
+
+
+Public Sub CheckBox1_Click()
+
+  If checkbox1.value = True
+  combobox1.enabled = True
+  Else
+    combobox1.enabled = False
+    End If
+
+End
+
+Public Sub CheckBox2_Click()
+
+  If checkbox2.value = True
+  combobox2.enabled = True
+  Else
+    combobox2.enabled = False
+    End If
+
+End
+
+Public Sub CheckBox3_Click()
+
+  If checkbox3.value = True
+  combobox3.enabled = True
+  Else
+    combobox3.enabled = False
+    End If
+
+End
+
+Public Sub CheckBox4_Click()
+
+  If checkbox4.value = True
+  combobox4.enabled = True
+  Else
+    combobox4.enabled = False
+    End If
+
+End
+
+Public Sub CheckBox5_Click()
+
+  If checkbox5.value = True
+  combobox5.enabled = True
+  Else
+    combobox5.enabled = False
+    End If
+
+End
+
+Public Sub CheckBox6_Click()
+
+  If checkbox6.value = True
+  combobox6.enabled = True
+  Else
+    combobox6.enabled = False
+    End If
+
+End
+
+Public Sub CheckBox7_Click()
+
+  If checkbox7.value = True
+  combobox7.enabled = True
+  Else
+    combobox7.enabled = False
+    End If
+
+End
+
+Public Sub Button4_Click()
+
+  Form2.Show
+  
+
+End
+
+Public Sub Button5_Click()
+
+  Form5.Show
+
+End
